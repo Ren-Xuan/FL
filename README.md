@@ -8,7 +8,7 @@
 
 #### Run Code:
 
-python main_fed.py --iid   --gpu 0 --local_ep 5 --local_bs 10  --num_users 1024 --frac 0.1 --dataset [fashionmnist,cifar,agnews]  --model [cnn,resnet,lstm] --epochs 250 [--fedslice]
+python main_fed.py --iid   --gpu 0 --local_ep 5 --local_bs 10  --num_users 1024 --frac 0.1 --dataset [fashionmnist/cifar/agnews]  --model [cnn/resnet/lstm] --epochs 250 [--fedslice]
 
 num_users represents the number of edge devices
 
