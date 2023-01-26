@@ -1,3 +1,0 @@
-10.491071701049805,
-2.7491946833474294,
-Namespace(bs=128, dataset='cifar', device=device(type='cpu'), epochs=10, fedslice=False, frac=0.001, gpu=0, iid=True, local_bs=10, local_ep=5, lr=0.01, model='resnet', momentum=0, num_channels=3, num_classes=10, num_users=1000, randFlag=False, save=False, seed=1, verbose=False)
