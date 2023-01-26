@@ -159,7 +159,7 @@ if __name__ == '__main__':
             #acc_test = acc_test.tolist()
             print('Round {:3d}, Average loss {:.3f}, Acc {:.3f}'.format(iter, loss_test,acc_test)+"\t:"+datetime.datetime.now().strftime('%H:%M %m-%d'))
         else:
-            acc_test, loss_test = test_img(net_glob, dataset_test, args,frac=0.2)
+            acc_test, loss_test = test_img(net_glob, dataset_test, args)
             acc_test = acc_test.tolist()
             print('Round {:3d}, Average loss {:.3f}, Acc {:.3f}'.format(iter, loss_test,acc_test)+"\t:"+datetime.datetime.now().strftime('%H:%M %m-%d'))
         loss_train.append(loss_test)
