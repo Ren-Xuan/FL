@@ -24,6 +24,6 @@ num_users represents the number of edge devices
 
 #### 	Code implementation of the main Federated Learning structure modified from: 
 
-Shaoxiong Ji. (2018, March 30). A PyTorch Implementation of Federated Learning. Zenodo. http://doi.org/10.5281/zenodo.4321561
+Shaoxiong Ji. (2018, March 30). A PyTorch Implementation of Federated Learning. Zenodo. http://doi.org/10.5281/zenodo.4321561 , https://github.com/shaoxiongji/federated-learning
 
 ​			
