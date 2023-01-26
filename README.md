@@ -2,9 +2,6 @@
 
 ------
 
-#### We have removed any information in the code that might contain the identity of the authors
-
-------
 
 #### Run Code:
 
@@ -24,4 +21,5 @@ num_users represents the number of edge devices
 
 #### 	Code implementation of the main Federated Learning structure modified from: https://github.com/shaoxiongji/federated-learning.
 
+#### We have removed any information in the code that might contain the identity of the authors.
 ​			
