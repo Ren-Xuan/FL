@@ -20,7 +20,7 @@ num_users represents the number of edge devices
 
 #### Note: 
 
-#### 		Our code implementation only simulates the federated learning environment.
+#### 		The federated learning environment in our code is simulated by a single server, not a real federated cluster.
 
 #### 	Code implementation of the main Federated Learning structure modified from: 
 
