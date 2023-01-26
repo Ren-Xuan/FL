@@ -59,7 +59,7 @@ if __name__ == '__main__':
         import torch
         from torchtext.datasets import AG_NEWS
     
-        train_iter = AG_NEWS(root='../data', split='train')      # 访问原始数据集迭代器
+        train_iter = AG_NEWS(root='../data', split='train')      
         test_iter = AG_NEWS(root='../data', split='test')
         dataset_train = [(line,label) for label,line in train_iter]
         dataset_test = [(line,label) for label,line in test_iter]
@@ -67,7 +67,7 @@ if __name__ == '__main__':
         from collections import Counter
         from torchtext.vocab import vocab
 
-        tokenizer = get_tokenizer('basic_english')      # 输入的字符串
+        tokenizer = get_tokenizer('basic_english')      
         counter = Counter()
         for line,label in dataset_train:
             counter.update(tokenizer(line))
