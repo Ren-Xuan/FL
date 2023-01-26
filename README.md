@@ -13,7 +13,7 @@ python main_fed.py --iid   --gpu 0 --local_ep 5 --local_bs 10  --num_users 1024 
 num_users represents the number of edge devices
 
 - **'num_users'**  represents the total number of edge devices 
-- **'frac' ** represents  the proportion of edge devices participating in the training each epoch
+- **'frac'** represents  the proportion of edge devices participating in the training each epoch
 - This parameter **'fedslice'** means that the FedSlice algorithm is used; without this parameter, the FedAvg algorithm is used.
 
 ------
